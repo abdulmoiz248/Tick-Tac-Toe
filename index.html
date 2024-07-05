@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tick Tack Toe</title>
+    <link href="style.css" rel="StyleSheet">
+</head>
+<body>
+
+    <main>
+
+        <div class="modal">
+            <h1>Select your Symbol</h1>
+             <div class="symbol">
+                <div class="tick"></div>
+            <div class="cross"></div>
+             </div>
+        </div>
+
+        <center>
+        <h1>Tick Tac Toe</h1>
+    </center>
+
+        <div class="board">
+            <div class="row">
+                <div class="box r1-1 hoverClass"></div>
+                <div class="box r1-2 hoverClass"></div>
+                <div class="box r1-3 hoverClass"></div>
+            </div>
+            <div class="row">
+                <div class="box r2-1 hoverClass"></div>
+                <div class="box r2-2 hoverClass"></div>
+                <div class="box r2-3 hoverClass"></div>
+            </div>
+            <div class="row">
+                <div class="box r3-1 hoverClass"></div>
+                <div class="box r3-2 hoverClass"></div>
+                <div class="box r3-3 hoverClass"></div>
+            </div>
+        </div>
+    </main>
+    <script type="importmap">
+        {
+          "imports": {
+            "@google/generative-ai": "https://esm.run/@google/generative-ai"
+          }
+        }
+      </script>
+    <script type="module" src="js.js" ></script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+body{
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  background-color: #84ffc9;
+}
+h1{
+   color: #84ffc9;
+   text-shadow:
+   -1px -1px 0 #000,  
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+   1px 1px 0 #000; 
+}
+main{
+    background-color: #eca0ff;
+    padding: 5%;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    
+}
+
+.box{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.r1-1{
+   border-bottom: 5px solid black;
+   border-right: 5px solid black;
+}
+.r1-2{
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+ }
+
+.r1-3{
+    border-bottom: 5px solid black;
+   
+ }
+ 
+.r2-3{
+    border-bottom: 5px solid black; 
+ }
+
+.r2-1{
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+ }
+
+ .r2-2{
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+ }
+
+ .r3-2{
+  
+    border-right: 5px solid black;
+ }
+
+ .r3-1{
+  
+    border-right: 5px solid black;
+ }
+
+.modal {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 400px;
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 10;
+        background-color:#aab2ff;
+        flex-direction: column;
+        border: 5px solid black;
+        border-radius: 15px;      
+        color: #84ffc9;
+        outline: 2px solid black;
+ 
+        
+}
+    
+.symbol{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+ .tick{
+    background-image: url('tick.png');
+    height: 150px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 40px;  
+ }
+
+ 
+ .cross{
+    background-image: url('cross.png');
+    
+    height: 150px;
+    width: 150px; 
+   
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 40px;
+    
+    
+ }
+
+.tick:hover{
+    border:2px solid black;
+}
+
+.cross:hover{
+    border:2px solid black;
+}
+
+
+.hoverClass:hover{
+    border:  2px solid blueviolet;
+}
