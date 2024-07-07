@@ -6,7 +6,7 @@ This project is a simple Tic Tac Toe game implemented in JavaScript, enhanced wi
 
 This web application allows a player to play Tic Tac Toe against an AI opponent. The AI's moves are powered by the Gemini API, which provides intelligent and context-aware responses.
 
-https://github.com/abdulmoiz248/Tick-Tac-Toe/assets/124524932/3bea1b7a-bdde-4529-8425-96ed5834dc4f
+https://github.com/abdulmoiz248/Tick-Tac-Toe/assets/124524932/1f7c1d27-abaf-4360-84fc-e80c395e33af
 
 ## Features
 
